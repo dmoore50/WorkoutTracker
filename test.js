@@ -9,7 +9,7 @@ testButton.addEventListener('click', () => {
     counter++;
     testP.innerHTML = counter;
 
-    fetch('http://localhost:3000/save-counter', {
+    fetch('https://workouttracker.glitch.me/save-counter', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
