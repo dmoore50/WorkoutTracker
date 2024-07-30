@@ -1,7 +1,7 @@
 const testButton = document.getElementById("testbutton");
 const testP = document.getElementById("test");
 
-var counter = 0;
+var counter = 1;
 
 testP.innerHTML = counter;
 
